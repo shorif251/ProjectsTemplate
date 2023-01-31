@@ -55,7 +55,7 @@ it will be ready package.json file
 after that put this command:
 <b> npm init @eslint/config </b>  
 <h6> You will be asked more questions about project in terminal give all answers, after that .eslintrc.js and package-lock.json will be created </h6>
-In .eslintrc.js you will can put many custom rules. Now You should past below rules in .eslintrc.js
+In .eslintrc.js you can put many custom rules. Now You should past below rules in .eslintrc.js
 <p>
      rules: {  <br/>
             'no-plusplus': 'off', <br/>
