@@ -28,8 +28,23 @@ This is Template for Frontend Projects.
         ] </br>
       } </br>
   </p>
-  
   <br/>
+  <h5>Setup Preitter</h5>
+  create .prettierrc.json and put below codes <br/>
+  <p>
+       { <br/>
+        "semi": true, <br/>
+        "trailingComma": "es5", <br/>
+        "tabWidth": 4, <br/>
+        "printWidth": 80, <br/>
+        "bracketSameLine": true, <br/>
+        "arrowParens": "always", <br/>
+        "singleAttributePerLine": true, <br/>
+        "singleQuote": true <br/>
+      } <br/>
+
+  </p>
+  
  <h1>Eslint setup</h1>
   <p> First download prettier and eslint extention </p>
   
@@ -40,6 +55,17 @@ it will be ready package.json file
 after that put this command:
 <b> npm init @eslint/config </b>  
 <h6> You will be asked more questions about project in terminal give all answers, after that .eslintrc.js and package-lock.json will be created </h6>
+In .eslintrc.js you will can put many custom rules. Now You should past below rules in .eslintrc.js
+<p>
+     rules: {  <br/>
+            'no-plusplus': 'off', <br/>
+            'no-console': 0, <br/>
+            indent: 0, <br/>
+            'no-unused-vars': 'off', <br/>
+            'vars-on-top': 'off', <br/>
+            'no-var': 0, <br/>
+        }, <br/>
+</p>
 <footer> Now linting is ready for projects</footer>
 
 
