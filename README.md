@@ -11,10 +11,10 @@ This is Template for Frontend Projects.
         "editor.defaultFormatter": "esbenp.prettier-vscode", </br>
         "editor.formatOnSave": true, </br>
         "[javascript]": { </br>
-          "editor.formatOnSave": true </br>
+          "editor.formatOnSave": false </br>
         }, </br>
         "[javascriptreact]": { </br>
-          "editor.formatOnSave": true </br>
+          "editor.formatOnSave": false </br>
         }, </br>
         "editor.codeActionsOnSave": { </br>
           "source.fixAll": true </br>
