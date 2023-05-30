@@ -5,7 +5,7 @@ This is Template for Frontend Projects.
 <p>For starting a project you mast have to inherit all tools in it. Like git, babel, prettier, and eslint, node, npm etc</p>
 <h3> First you have to ready your workspace for the project<h3>
 <p> Go to workspace in vscode setting, and type formatter, than set prettier as a default formatter. Now you will see .vscode folder is opened in your project. In this folder you will see a file name setting.json, </p>
-  <>
+  <div>
   in setting.json put below codes. </br>
     { <br />
   "editor.defaultFormatter": "esbenp.prettier-vscode", <br />
@@ -33,7 +33,7 @@ This is Template for Frontend Projects.
   } <br />
 } <br />
 
-  </>
+  </div>
   <br/>
   <h5>Setup Preitter</h5>
   create .prettierrc.json and put below codes <br/>
