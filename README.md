@@ -30,7 +30,12 @@ This is Template for Frontend Projects.
   "emmet.triggerExpansionOnTab": true, <br />
   "emmet.includeLanguages": { <br />
     "javascript": "javascriptreact" <br />
-  } <br />
+  }, <br />
+  "css.validate": false, <br />
+  "tailwindCSS.emmetCompletions": true, <br />
+  "editor.quickSuggestions": { <br />
+    "strings": true <br />
+  }, <br />
 } <br />
 
   </div>
