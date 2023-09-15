@@ -35,7 +35,7 @@ This is Template for Frontend Projects.
   "tailwindCSS.emmetCompletions": true, <br />
   "editor.quickSuggestions": { <br />
     "strings": true <br />
-  }, <br />
+  }, <br /> 
 } <br />
 
   </div>
